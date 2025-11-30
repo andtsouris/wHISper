@@ -1,0 +1,29 @@
+{
+  "name": "@wHISper/fhir-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "mcp:start": "npx tsx ./src/index.ts",
+    "inspector:start": "npx @modelcontextprotocol/inspector",
+    "fhir:start": "docker start hapi-fhir",
+    "fhir:stop": "docker start hapi-fhir",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/fhir": "^0.0.41",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "express": "^5.1.0",
+    "ky": "^1.14.0",
+    "zod": "^4.1.13"
+  }
+}
