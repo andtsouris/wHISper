@@ -1,6 +1,8 @@
 # w**HIS**per
 Submission for the Black Forest SmartXHealth Hackathon
 
+![wHISper System Architecture](assets/wHISper_concept.png)
+
 ## Challenge 1: *VoiceMed*: The Voice-Controlled Clinical Assistant
 
 
